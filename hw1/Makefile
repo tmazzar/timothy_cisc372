@@ -1,8 +1,6 @@
-run:
-	gcc -o timothy_hello timothy_hello.c
-	timothy_hello
-timothy_hello:
-	gcc -o timothy_hello timothy_hello.c
+run: timothy_hello.c
+	./timothy_hello
+timothy_hello : timothy_hello.c
+	cc -o  timothy_hello timothy_hello.c
 clean:
-	rm -f timothy_hello.exe 
-
+	rm -rf timothy_hello *~

@@ -8,4 +8,5 @@ timothy_hello: timothy_hello.c
 clean:
 	rm -f timothy_hello.c~
 	rm -f timothy_hello
+	rm -f timothy_hello.exe
 	rm -f Makefile~
